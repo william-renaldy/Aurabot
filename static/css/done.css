@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&family=Ubuntu:wght@300&display=swap');
+
+.done_head{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: medium;
+    padding-left: 2%;
+}
+
+.done_button{
+    padding-left: 5%;
+}

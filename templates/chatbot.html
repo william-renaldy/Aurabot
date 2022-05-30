@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=yes">
+    <title>AURABOT AI ChatBot</title>
+
+    <link rel = "icon" href ="{{url_for('static',filename='img/logo.jpeg')}}" type = "image/x-icon">
+
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+    <link href="{{url_for('static',filename='css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{url_for('static',filename='css/main.css')}}" rel="stylesheet" type="text/css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <link href="{{url_for('static',filename='css/select2.min.css')}}" rel="stylesheet" type="text/css"/>
+    <link href="{{url_for('static',filename='css/chatBot.css')}}" rel="stylesheet" type="text/css"/>
+    <link href="{{url_for('static',filename='css/timeline.css')}}" rel="stylesheet" type="text/css"/>
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,h1,h2,h3,h4,h5,h6 {
+            font-family: "Lato", sans-serif
+        }
+
+        .w3-bar,h1,button {
+            font-family: "Montserrat", sans-serif
+        }
+
+        .fa-laptop,.fa-comments-o {
+            font-size:200px
+        }
+
+        .aurabotdiv{
+            /* Created with https://www.css-gradient.com */
+            background: #6725D1;
+            background: -webkit-linear-gradient(top left, #6725D1, #BC51E8);
+            background: -moz-linear-gradient(top left, #6725D1, #BC51E8);
+            background: linear-gradient(to bottom right, #6725D1, #BC51E8);
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div class="w3-top">
+        <div class="w3-bar w3-white   w3-card w3-left-align w3-large">
+          <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+          <a href="" class="w3-bar-item w3-button w3-padding-large w3-pink ">Home</a>
+
+        </div>
+      
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+        </div>
+      </div>
+      
+      <!-- Header -->
+      <!-- deep purple colour -->
+      <header class="w3-container w3-center aurabotdiv" style="padding:128px 16px">
+        <h1 class="w3-jumbo" style="color: black;">AURABOT</h1>
+        <p class="w3-xlarge" style="color: rgb(53, 51, 51); ">User Friendly ChatBot</p>
+        <button id="chat-start" class="w3-button w3-pink w3-padding-large w3-large w3-margin-top w3-hover-amber">Let's Chat</button>
+      </header>
+      
+      <!-- First Grid -->
+      <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+          <div class="w3-twothird">
+            <h1>Boost Your Knowledge</h1>
+            <h5 class="w3-padding-32">Any sufficiently advanced technology is indistinguishable from magic.
+      
+          </h5>
+      
+            <p class="w3-text-grey">Our AuraBot will help you bolster your knowledge by solving your doubts and especially FAQ's. The key features of our bot will make sure that you leave our site happily with your doubts cleared which is a big reason on "Why AuraBot?".</p>
+          </div>
+      
+          <div class="w3-third w3-center">
+         <!-- laptop image-->   <i class="fa fa-laptop w3-padding-64 w3-text-red"></i>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Second Grid -->
+      <div class="w3-row-padding   w3-padding-64 w3-container w3-text-theme-pink">
+        <div class="w3-content">
+          <div class="w3-third w3-center">
+            <!-- message image--> <i class="fa fa-comments-o w3-padding-64 w3-text-red w3-margin-right"></i>
+          </div>
+      
+          <div class="w3-twothird">
+            <h1>User Friendly</h1>
+            <h5 class="w3-padding-32">Hassle free experience to quench your thirst for knowledge</h5>
+      
+            <p class="w3-text-grey">AuraBot can be accessed using both voice and text commands. This makes you to use our chatbot easily and effectively. Also, AuraBot is designed in a way that even if bot cannot answer the question, Google will provide the answer automatically.</p>
+          </div>
+        </div>
+      </div>
+
+      <!--
+      
+      <div class="w3-container w3-black w3-center  w3-padding-64"> Add w3-opacity between center and padding 64 for grey colour 
+          <h1 class="w3-margin w3-xlarge"></h1>
+      </div>
+      
+    
+      <footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+        <div class="w3-xlarge w3-padding-32">
+         <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+         
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+       </div>
+       <p> <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"></a></p>
+      </footer>
+    -->
+
+<!-- Chat bot UI start -->
+<div class="chat-screen">
+    <div class="chat-header">
+        <div class="chat-header-title">
+            Let's chat? - AURABOT
+        </div>
+        
+    </div>
+    <form autocomplete="off">
+        <div class="chat-body" id="chatbox" style="overflow-x: hidden; overflow-y: auto; width: 100%;">
+            <p class="chat-bubble you"><span>Hii 👋<span></p>
+            <p class="chat-bubble you"><span>I'm AuraBot, Your smart assistant<span></p>
+            <p class="chat-bubble you"><span>I can help you with anything, especially with FAQ's<span></p>
+            <p class="chat-bubble you"><span>I can answer any sort of queries especially in : <ul> <li>Sports</li><li>Politics</li><li>First Aid </li><li>Programming</li> <li>Agriculture</li><li>Violence against women</li><li>Artificial Intelligence</li></ul><span></p>
+
+        </div>
+
+        <div id="userInput" class="chat-input">
+            <input id="text" type="text" placeholder="Type a message...">
+            <div class="input-action-icon">
+                <button id="send" value="send" class="hide" type="submit"></button>
+                <button id="speak" value="speak" style="background-color: transparent; border: none; " type="submit">
+                    <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-mic-fill" viewBox="0 0 16 16">
+                        <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0V3z"/>
+                        <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"/>
+                    </svg></a>
+                </button>
+                <button id="send" value="send" style="background-color: transparent; border: none;" type="submit">
+                    <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-send"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg></a>
+                </button>
+            </div>
+            
+        </div>
+        <div id="wrapper" class="chat-input">
+            <form autocomplete="off">
+                <label style="margin-left: 15px; margin-right: 15px;">Satisfied with this answer?</label>
+                    <button type="submit" value="yes" id="yes" style="width: 15%; background-color: transparent; border: none;">
+                        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                          </svg></a>
+                    </button>
+                    
+                    <button type="submit" value="no" id="no" style="width: 15%; background-color: transparent; border: none;">
+                        <a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                        </a>
+                    </button>
+            </form>
+            <br>
+            <br>
+        </div>
+    </form>
+    
+</div>
+<div class="chat-bot-icon">
+    <img src="{{url_for('static',filename='img/we-are-here.svg')}}"/>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square animate"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x "><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+</div>
+
+
+<!-- Chat Bot UI Ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
+<script type="text/javascript" src="{{url_for('static',filename='js/jquery-3.1.1.min.js')}}"></script>
+<script type="text/javascript" src="{{url_for('static',filename='js/popper.min.js')}}"></script>
+<script type="text/javascript" src="{{url_for('static',filename='js/bootstrap.min.js')}}"></script>
+<script type="text/javascript" src="{{url_for('static',filename='js/select2.min.js')}}"></script>
+<script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+</script>
+<script>
+    $(document).ready(function(){
+            $(".select2_el").select2({
+            });
+        });
+
+</script>
+
+<script>
+    $(document).ready(function () {
+        //Toggle fullscreen
+        $("#chat-start").click(function (e) {
+            $(".chat-bot-icon").children('img').toggleClass('hide');
+            $(".chat-bot-icon").children('svg').toggleClass('animate');
+            $('.chat-screen').toggleClass('show-chat');
+        });
+
+        $(".chat-bot-icon").click(function(e){
+            $(this).children("img").toggleClass("hide");
+            $(this).children("svg").toggleClass("animate");
+            $(".chat-screen").toggleClass("show-chat");
+        });
+        
+    });
+
+
+</script>
+
+<script>
+    
+    document.getElementById("wrapper").style.display="none";
+    function onlySpaces(str)
+    {
+        return str.trim().length === 0;
+    }
+
+    $(document).ready(function()
+    {
+        document.getElementById("wrapper").style.display = "none";
+        document.getElementById("userInput").style.display="table";
+        var t;
+        $("form").on("submit",function(event)
+        {
+            document.getElementById("wrapper").style.display = "none";
+            document.getElementById("userInput").style.display="table";
+            $("button").click(function()
+            {
+                t = $(this).attr('id');
+            });
+
+            if (t=="speak")
+            {
+                var botHtml = '<p class="chat-bubble you"><span>' + "AURABOT is Recording ... " + "<span></p>";
+            
+                $("#chatbox").append($.parseHTML(botHtml));
+                var objdiv = document.getElementById("chatbox");
+                objdiv.scrollTop = objdiv.scrollHeight;
+                document.getElementById("userInput").scrollIntoView(
+                {
+                    block: "start",
+                    behavior: "smooth"
+                });
+
+                $.ajax(
+                {
+                    type: "POST",
+                    url: "/speak",
+                }).done(function(data)
+                {
+                    console.log(data)
+                    var userHtml = '<p class="chat-bubble me"><span>' + data[0] + "</span></p>";
+                    $("#text").val("");
+                    $("#chatbox").append($.parseHTML(userHtml));
+                    $("#chatbox").append($.parseHTML("<p class='chat-bubble you'><span>...</span></p>"))
+                    var objdiv = document.getElementById("chatbox");
+                    objdiv.scrollTop = objdiv.scrollHeight;
+
+                    document.getElementById("userInput").scrollIntoView(
+                    {
+                        block: "start",
+                        behavior: "smooth"
+                    });
+                    console.log(data)
+
+                    var botHtml = '<p class="chat-bubble you"><span>' + data[1] + "</span></p>";
+                    $("#chatbox").children().last().remove();
+                    $("#chatbox").append($.parseHTML(botHtml));
+                    var objdiv = document.getElementById("chatbox");
+                    objdiv.scrollTop = objdiv.scrollHeight;
+                    document.getElementById("userInput").scrollIntoView(
+                    {
+                        block:"start",
+                        behavior:"smooth",
+                    });
+                    if(data[2]=="yes")
+                        {
+                            document.getElementById("userInput").style.display="none";
+                            document.getElementById("wrapper").style.display="table";
+                        }
+                });
+            }
+
+            else if(t=="yes" || t=="no")
+            {
+                $.ajax(
+                    {
+                        data:
+                        {
+                            res:t,
+                        },
+                        type:"POST",
+                        url:"/suggestion"
+                    }
+                ).done(function(data){
+                    if (data!="yes"&&data!="no")
+                    {
+                        var botHtml = '<p class="chat-bubble you"><span>' + data + "</span></p>";
+                        $("#chatbox").append($.parseHTML(botHtml));
+                        var objdiv = document.getElementById("chatbox");
+                        objdiv.scrollTop = objdiv.scrollHeight;
+                        document.getElementById("userInput").scrollIntoView(
+                        {
+                            block: "start",
+                            behavior: "smooth",
+                        });
+                    }
+                });
+            }
+
+            else
+            {
+                var rawText = $("#text").val();
+                if (onlySpaces(rawText)==false)
+                {
+                    var userHtml = '<p class="chat-bubble me"><span>' + rawText + "</span></p>";
+                    $("#text").val("");
+                    $("#chatbox").append($.parseHTML(userHtml));
+                    $("#chatbox").append($.parseHTML("<p class='chat-bubble you'><span>...</span></p>"))
+                    var objdiv = document.getElementById("chatbox");
+                    objdiv.scrollTop = objdiv.scrollHeight;
+                    document.getElementById("userInput").scrollIntoView(
+                    {
+                        block: "start",
+                        behavior: "smooth",
+                    });
+
+                    $.ajax(
+                    {
+                        data:
+                        {
+                            msg: rawText,
+                        },
+                        type: "POST",
+                        url: "/get",
+                    }).done(function(data)
+                    {
+                        var botHtml = '<p class="chat-bubble you"><span>' + data[0] + "</span></p>";
+                        $("#chatbox").children().last().remove();
+                        $("#chatbox").append($.parseHTML(botHtml));
+                        var objdiv = document.getElementById("chatbox");
+                        objdiv.scrollTop = objdiv.scrollHeight;
+                        document.getElementById("userInput").scrollIntoView(
+                        {
+                            block: "start",
+                            behavior: "smooth",
+                        });
+                        if(data[1]=="yes")
+                        {
+                            document.getElementById("wrapper").style.display="table";
+                            document.getElementById("userInput").style.display="none";
+                            
+                        }
+                    });
+                }
+            }
+        event.preventDefault();
+        });
+    });
+    
+</script>
+</body>
+
+</html>

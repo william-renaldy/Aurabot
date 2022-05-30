@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel = "icon" href ="{{url_for('static',filename='img/logo.jpeg')}}" type = "image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{url_for('static',filename='css/editing.css')}}" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>Editing</title>
+</head>
+<body>   
+    <div class="head_div">
+        <h1>AuraBot's Unanswered Questions:</h1>
+    </div>
+    <div class="question_list">
+        <form method="post">
+            <ul class="list-group">
+                {%for i in range(length)%}
+                    <li class="list-group-item"><input type="submit" formaction="/editing/{{question[i]}}" value="{{question[i]}}" class="btn" style="width: 100%; text-align: left;"></li>
+                {%endfor%}
+
+            </ul>
+        </form>
+    </div>
+</body>
+</html>

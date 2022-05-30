@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href ="{{url_for('static',filename='img/logo.jpeg')}}" type = "image/x-icon">
+    <link href="{{url_for('static',filename='css/done.css')}}" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>Added</title>
+</head>
+<body>
+    <div class="done_head">
+    <h1>Added to database successfully</h1>
+    </div>
+    <br>
+    <div class="done_button">
+        <form action="/editing" method="post">
+            <input type="submit" class="btn btn-primary" value="Add another question"/>
+        </form>
+    </div>
+</body>
+</html>

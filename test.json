@@ -1,0 +1,231 @@
+[
+    {
+        "tag" : "bala 61",
+        "question" : ["What is programming language"],
+        "answer" : ["A programming language is a vocabulary and set of grammatical rules for instructing a computer or computing device to perform specific tasks. • The term programming language usually refers to high-level languages, such as BASIC, C, C++, COBOL, Java, FORTRAN, Ada, and Pascal."]
+    },
+    {
+        "tag" : "bala 62",
+        "question" : ["What are the types of Programming Language"],
+        "answer" : ["The 4 types of Programming Language that are classified are:<br> 1.Procedural Programming Language<br>2.Functional Programming Language<br>3.Scripting Programming Language<br>4.Logic Programming Language<br>Object-Oriented Programming Language"]
+    },
+    {
+        "tag" : "bala 63",
+        "question" : ["what is python"],
+        "answer" : ["Python is a computer programming language often used to build websites and software, automate tasks, and conduct data analysis. Python is a general-purpose language, meaning it can be used to create a variety of different programs and isn't specialized for any specific problems."]
+    },
+    {
+        "tag" : "bala 64",
+        "question" : ["what is functional programming"],
+        "answer" : ["Functional programming (also called FP) is a way of thinking about software construction by creating pure functions. It avoid concepts of shared state, mutable data observed in Object Oriented Programming. Functional langauges empazies on expressions and declarations rather than execution of statements"]
+    },
+        {
+        "tag" : "bala 65",
+        "question" : ["what is javascript"],
+        "answer" : ["JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive. Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user."]
+    },
+        {
+        "tag" : "bala 66",
+        "question" : ["what is text editor in programming"],
+        "answer" : ["Essentially, a text editor is a program on you computer that allows you to create and edit a range of programming language files. AKA this is the place where you write your code! Text editors handle “hand coding” many different languages, i.e.: HTML, CSS, JavaScript, PHP, Ruby, Python, and so forth"]
+    },
+        {
+        "tag" : "bala 67",
+        "question" : ["What is the difference between coding and programming?"],
+        "answer" : ["Coding is a process by which we tell computers what to do—how a program should work, how a website should run, etc. Coders use programming languages (more on that in a bit) in order to communicate these instructions. Nowadays, programming and coding are mostly used interchangeably."]
+    },
+        {
+        "tag" : "bala 68",
+        "question" : ["What are HTML and CSS?"],
+        "answer" : ["HTML stands for HyperText Markup Language, the standard language used to create web pages. It's the most basic building block you'll need for developing websites. It's also one of the first languages you'll want to learn if you're interested in coding. You might remember basic HTML tags from early personal websites like Myspace, where you could customize your page with commands inside <>.And if HTML is one of the first languages you'll learn, CSS is probably the second. CSS (Cascading Style Sheets) is the language used to add style to the document you create with HTML. Where HTML comes first and creates the foundation for your page, CSS comes along next and is used to create the page's layout, color, fonts, and…well, the style."]
+    },
+        {
+        "tag" : "bala 69",
+        "question" : ["How do you pronounce SQL?"],
+        "answer" : ["If you haven't already noticed, coding is the land of acronyms and other words whose obvious pronunciation might not leap off the page. SQL stands for Structured Query Language and it's a programming language used to view or change data in databases.<br>A co-worker told me that at the first coding meetup she ever attended, a smug developer took great pleasure in correcting her when she pronounced it “S-Q-L.” According to him, it was pronounced “sequel.” However, a quick poll of the Skillcrush Dev team revealed that both pronunciations are correct. Whether it's S-Q-L or sequel, it's all Structured Query Language at the end of the day. Say it however you please with confidence."]
+        
+    },
+        {
+        "tag" : "bala 70",
+        "question" : ["WHY IS PROGRAM DOCUMENTATION IMPORTANT?"],
+        "answer" : ["Program documentation includes describing algorithms, coding strategies, designing, testing and proper use of a particular program in written form. This process is important for sharing data with other developers."]
+        
+    },
+        {
+        "tag" : "bala 71",
+        "question" : ["WHAT ARE CONSTANTS?"],
+        "answer" : ["Constants are data values that remain the same whenever a computer program is initiated. Examples are literal constants, those embedded in the source code, and name constants, simplified titles for literal constants."]
+        
+    },
+       {
+        "tag" : "bala 72",
+        "question" : ["WHAT ARE OPERATORS?"],
+        "answer" : ["Operators are symbols leveraged to implement mathematical or logical alterations. Operator variations include arithmetic, relational, bitwise, logical, assignment, increment and miscellaneous."]
+        
+    },
+       {
+        "tag" : "bala 73",
+        "question" : ["WHAT IS A DATA STRUCTURE?"],
+        "answer" : ["Data structures are systems specifically meant to organize data and perform functions with ease. Some data structures include arrays, linked lists and stacks."]
+        
+    },
+       {
+        "tag" : "bala 74",
+        "question" : ["what programming language is used for blockchain"],
+        "answer" : ["Blockchain developers use javascript in web3. js and ethereum. js which it helps you connect your frontend of application to connect with ethereum network and smart contracts. Another popular use of javascript in blockchain is Hyperledger Fabric SDK for node."]
+        
+    },
+       {
+        "tag" : "bala 75",
+        "question" : ["What is IDE"],
+        "answer" : ["Tools provided by an IDE include a text editor, a project editor, a tool bar, and an output viewer. IDEs can perform a variety of functions. Notable ones include write code, compile code, debug code, and monitor resources. Examples of IDEs include NetBeans, Eclipse, IntelliJ, and Visual Studio."]
+        
+    },
+       {
+        "tag" : "bala 76",
+        "question" : ["what is AI"],
+        "answer" : ["Artificial intelligence (AI) is the ability of a computer or a robot controlled by a computer to do tasks that are usually done by humans because they require human intelligence and discernment.18"]
+        
+    },
+       {
+        "tag" : "bala 77",
+        "question" : ["What is deep learning","deep learning","dl"],
+        "answer" : ["Deep learning is a subset of machine learning, which is essentially a neural network with three or more layers. These neural networks attempt to simulate the behavior of the human brain—albeit far from matching its ability—allowing it to “learn” from large amounts of data."]
+        
+    },
+       {
+        "tag" : "bala 78",
+        "question" : ["What is machine learning","machine learning","ml"],
+        "answer" : ["Machine learning is a subfield of artificial intelligence, which is broadly defined as the capability of a machine to imitate intelligent human behavior. Artificial intelligence systems are used to perform complex tasks in a way that is similar to how humans solve problems."]
+        
+    },
+       {
+        "tag" : "bala 79",
+        "question" : ["What is Ruby"],
+        "answer" : ["Ruby is a server-side scripting language similar to Python and PERL. Ruby can be used to write Common Gateway Interface (CGI) scripts. Ruby can be embedded into Hypertext Markup Language (HTML). Ruby has a clean and easy syntax that allows a new developer to learn very quickly and easily."]
+        
+    },
+       {
+        "tag" : "bala 80",
+        "question" : ["What is Haskell"],
+        "answer" : ["Haskell is a widely used purely functional language. Functional programming is based on mathematical functions. Besides Haskell, some of the other popular languages that follow Functional Programming paradigm include: Lisp, Python, Erlang, Racket, F#, Clojure, etc. Haskell is more intelligent than other popular programming languages such as Java, C, C++, PHP, etc. In this tutorial, we will discuss the fundamental concepts and functionalities of Haskell using relevant examples for easy understanding."]
+        
+    },
+       {
+        "tag" : "bala 81",
+        "question" : ["What is Erlang"],
+        "answer" : ["Erlang is a general purpose or you might say a functional programming language and runtime environment. It was built in such a way that it had inherent support for concurrency, distribution and fault tolerance. Erlang was originally developed to be used in several large telecommunication systems. But it has now slowly made its foray into diverse sectors like ecommerce, computer telephony and banking sectors as well."]
+        
+    },
+ 
+       {
+        "tag" : "bala 83",
+        "question" : ["what is dart programming language","dart programming"],
+        "answer" : ["Dart is an open-source programming language which is widely used to develop the mobile application, modern web-applications, desktop application, and the Internet of Things (IoT) using by Flutter framework. It also supports a few advance concepts such as interfaces, mixins, abstract classes, refield generics, and type interface."]
+        
+    },
+    {
+        "tag" : "bala 84",
+        "question" : ["What is Android Studio"],
+        "answer" : ["Android Studio is the official integrated development environment (IDE) for Google 's Android operating system, built on JetBrains 'IntelliJ IDEA software and designed specifically for Android development. It is available for download on Windows, macOS and Linux based operating systems. "]
+        
+    },
+       {
+        "tag" : "bala 85",
+        "question" : ["What is Lisp"],
+        "answer" : [" Lisp (historically LISP) is a family of programming languages with a long history and a distinctive, fully parenthesized prefix notation. Originally specified in 1958, Lisp is the second-oldest high-level programming language in widespread use today. Only Fortran is older, by one year. "]
+        
+    },
+       {
+        "tag" : "bala 86",
+        "question" : ["What is esolang"],
+        "answer" : [" An esoteric programming language (sometimes shortened to esolang) is a programming language designed to test the boundaries of computer programming language design, as a proof of concept, as software art, as a hacking interface to another language (particularly functional programming or procedural programming languages), or as a joke."]
+        
+    },
+       {
+        "tag" : "bala 87",
+        "question" : ["What is the Most Difficult Programming Languages To Learn "],
+        "answer" : [" C++ is the first and, by far, the most difficult programming language. This language is even more difficult than its predecessor, C. It was founded in 1983 and has been causing programming students restless nights ever since. C++ is an object-oriented and imperative programming language. This language was developed to produce fewer modifications in low-level memory. C++'s most significant  use was in the development of e-commerce systems, online searches, and SQL servers."]
+        
+    },
+       {
+        "tag" : "bala 88",
+        "question" : ["What is piet programming language"],
+        "answer" : ["  Piet is a programming language in which programs look like abstract paintings. The language is named after Piet Mondrian, who pioneered the field of geometric abstract art. I would have liked to call the language Mondrian, but someone beat me to it with a rather mundane-looking scripting language."]
+        
+    },
+       {
+        "tag" : "bala 89",
+        "question" : ["what is golang"],
+        "answer" : [" Golang is a procedural and statically typed programming language having the syntax similar to C programming language. Sometimes it is termed as Go Programming Language."]
+        
+    },
+       {
+        "tag" : "bala 90",
+        "question" : ["What Is Kotlin"],
+        "answer" : [" Kotlin is a programming language that was released in 2011 by JetBrains, a company that sells integrated development environments (IDEs) for programming languages. Since then, it's become a favorite language for developers and replaced Java in many software projects."]
+        
+    },
+
+       {
+        "tag" : "bala 91",
+        "question" : ["What Is R programming language","r programming"],
+        "answer" : [" R is a programming language for statistical computing and graphics supported by the R Core Team and the R Foundation for Statistical Computing. Created by statisticians Ross Ihaka and Robert Gentleman, R is used among data miners and statisticians for data analysis and developing statistical software. Users have created packages to augment the functions of the R language."]
+        
+    },
+       {
+        "tag" : "bala 92",
+        "question" : ["what is rust programming language","rust programming"],
+        "answer" : [" Rust was created to ensure high performance similar to that offered by C and C++,  but with emphasis on code safety, the lack of which is the Achilles heel of these two languages. However, Rust has more than just memory safety on its side. High performance while processing large amounts of data, support for concurrent programming, and this together with an effective compiler are other reasons why well-known software heavyweights now use this programming language. Firefox, Dropbox, Cloudflare, and many other companies from startups to large corporations use Rust in production. "]
+        
+    },
+       {
+        "tag" : "bala 93",
+        "question" : ["what is scala programming language","scala"],
+        "answer" : ["Scala combines object-oriented and functional programming in one concise, high-level language. Scala's static types help avoid bugs in complex applications, and its JVM and JavaScript runtimes let you build high-performance systems with easy access to huge ecosystems of libraries."]
+        
+    },
+       {
+        "tag" : "bala 94",
+        "question" : ["what is react js","react js"],
+        "answer" : ["React. js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications. It's used for handling the view layer for web and mobile apps. React also allows us to create reusable UI components."]
+        
+    },
+       {
+        "tag" : "bala 95",
+        "question" : ["what is swift programming","swift programming"],
+        "answer" : ["Swift is a robust and intuitive programming language created by Apple for building apps for iOS, Mac, Apple TV, and Apple Watch. It's designed to give developers more freedom than ever. Swift is easy to use and open source, so anyone with an idea can create something incredible."]
+        
+    },
+       {
+        "tag" : "bala 96",
+        "question" : ["what is java programming language","java","java programming"],
+        "answer" : ["Java is a powerful general-purpose programming language. It is used to develop desktop and mobile applications, big data processing, embedded systems, and so on. According to Oracle, the company that owns Java, Java runs on 3 billion devices worldwide, which makes Java one of the most popular programming languages."]
+        
+    },
+       {
+        "tag" : "bala 97",
+        "question" : ["what is c++ programming language"],
+        "answer" : ["C++ is a powerful general-purpose programming language. It can be used to develop operating systems, browsers, games, and so on. C++ supports different ways of programming like procedural, object-oriented, functional, and so on. This makes C++ powerful as well as flexible."]
+        
+    },
+
+       {
+        "tag" : "bala 98",
+        "question" : ["what is c#  programming languages","c sharp programming","what is c sharp"],
+        "answer" : ["C# (pronounced \"See Sharp\") is a modern, object-oriented, and type-safe programming language. C# enables developers to build many types of secure and robust applications that run in .NET. C# has its roots in the C family of languages and will be immediately familiar to C, C++, Java, and JavaScript programmers. This tour provides an overview of the major components of the language in C# 8 and earlier.<br>If you want to explore the language through interactive examples, try the introduction to C# tutorials."]
+        
+    },
+       {
+        "tag" : "bala 99",
+        "question" : ["what is perl programming language"],
+        "answer" : ["Perl is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including system administration, web development, network programming, GUI development, and more."]
+        
+    },
+       {
+        "tag" : "bala 100",
+        "question" : ["what is bash programming"],
+        "answer" : ["Bash is a command processor that typically runs in a text window where the user types commands that cause actions. Bash can also read and execute commands from a file, called a shell script."]
+        
+    }
+]

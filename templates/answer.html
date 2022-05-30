@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{url_for('static',filename='css/answer.css')}}" rel="stylesheet" type="text/css"/>
+    <link rel = "icon" href ="{{url_for('static',filename='img/logo.jpeg')}}" type = "image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <title>Provide Answer</title>
+</head>
+<body>
+    <div class="question_head">
+        <h1 id="question_h1">{{questions}}</h1>
+    </div>
+    <div class="container-fluid" style="margin: auto; text-align: center;">
+        <div>
+            <button class="btn btn-light" id="Add">Click to add question</button>
+            <button class="btn btn-light" id="Remove">Click to remove question</button>
+        </div>
+        <div id="questiondiv">
+
+        </div>
+        <br>
+        <div>
+            <button class="btn btn-light" id="AddAnswer">Click to add answer</button>
+            <button class="btn btn-light" id="RemoveAnswer">Click to remove answer</button>
+        </div>
+        <div id="answerdiv">
+
+        </div>
+        <br>
+        <div>
+            <button class="btn btn-secondary" id="Submit">Submit</button>
+        </div>
+        <br>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $("#Add").on("click",function(){
+                $("#questiondiv").append(
+                    "<br><div class='row d-flex justify-content-center'><input class='form-control' type = 'text' style='width:50%; align:center;'/></div>"
+                );
+            });
+            $("#Remove").on("click",function(){
+                $("#questiondiv").children().last().remove();
+            });
+
+
+            $("#AddAnswer").on("click",function(){
+                $("#answerdiv").append(
+                    "<br><div class='row d-flex justify-content-center'><input class='form-control' type = 'text' style='width:50%; align:center;'/></div>"
+                );
+            });
+            $("#RemoveAnswer").on("click",function(){
+                $("#answerdiv").children().last().remove();
+            });
+
+            $("#Submit").on("click",function(){
+                const question = [];
+                const answer = [];
+
+                question.push(document.getElementById("question_h1").innerHTML);
+
+                $("#questiondiv :input").each(function(e){
+                    question.push(this.value);
+                });
+
+                $("#answerdiv :input").each(function(e){
+                    answer.push(this.value);
+                });
+
+                console.log(question,answer)
+
+                $.ajax({
+                    data:{
+                        ques:JSON.stringify(question),
+                        ans:JSON.stringify(answer)
+                    },
+                    type:"POST",
+                    url:"/done",
+                    dataType:"html",
+                    success: function(response){
+                        window.location.href="/done";
+                    }
+                })
+                
+
+            });
+        
+        });
+    </script>
+</body>
+</html>
