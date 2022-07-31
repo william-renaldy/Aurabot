@@ -1,0 +1,8 @@
+flask
+gunicorn
+numpy
+pandas
+scikit-learn
+tensorflow
+tflearn
+pickle5
